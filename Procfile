@@ -1,0 +1,1 @@
+web: flower --port=5555 --broker=$BROKER_URL --persistent=true --basic_auth=$CELERY_MONITOR_AUTH
